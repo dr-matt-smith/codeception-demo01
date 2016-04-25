@@ -5,4 +5,4 @@ php:
 
 install: composer update
 install: composer require codeception/codeception
-script: vendon/bin/codecept run
+script: ./vendor/bin/codecept run
