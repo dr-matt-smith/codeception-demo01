@@ -1,0 +1,13 @@
+# Codeception Test Suite Configuration
+#
+# Suite for acceptance tests.
+# Perform tests in browser using the WebDriver or PhpBrowser.
+# If you need both WebDriver and PHPBrowser tests - create a separate suite.
+
+class_name: AcceptanceTester
+modules:
+    enabled:
+        - PhpBrowser:
+            # ensure you DO not add a trailing forward slash at the end of your URL - may cause problems later ...
+            url: http://localhost:8888
+        - \Helper\Acceptance

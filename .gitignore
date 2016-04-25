@@ -1,0 +1,9 @@
+build
+docs
+vendor
+.idea
+*.phar
+tests/coverage
+src/documentation
+
+
